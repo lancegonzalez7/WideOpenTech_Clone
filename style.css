@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 100%;
+    background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg") center top;
+    background-size: cover;
+}
+.nav-container {
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: #fff;
+    display: block;
+    line-height: 20px;
+    width: 100%;
+    position:fixed;
+}
+.nav {
+    min-height: 38px;
+    background-color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    padding-top: 4px;
+    margin-left: 1em;
+    float: left;
+}
+.logo a {
+    background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wot-logo-whitex2.svg");
+    background-size: 155px 31px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 31px;
+    width: 155px;
+}
+.hamburger {
+    float: right;
+    margin-right: 1em;
+    padding-top: 4px;
+}
+.masthead h1 {
+    padding-top: 80px;
+    margin: 0 auto;
+    font-size: 155px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    max-width: 760px;
+    font-family: 'Oswald';
+    transform: translate3d(0,0,0);
+    backface-visibility: hidden;
+}
+h1 .main {
+    font-size: 150px;
+    letter-spacing: 1px;
+    width: 100%;
+    margin: 0;
+    line-height: 165px;;
+    display: block;
+}
+h1 small {
+    font-size: 22px;
+    font-weight: 500;
+    display: block;
+    letter-spacing: 1px;
+    margin-left: auto;
+    text-align: center;
+    line-height: 22px;
+}
+h1 .minor {
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: none;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 500;
+    position: relative;
+    line-height: 1.1;
+}
+.minor em {
+    color: #FB7D39;
+    font-style: normal;
+}
+.minor i {
+    color: #B9CB35;
+    font-style: normal;
+}
+.minor:before, .minor:after{
+    content:" ";
+    display:block;
+    background:#fff;
+    height: 9px;
+    width: 20%;
+    position: absolute;
+    left: -20%;
+    top: 5px;
+}
+.minor:before{
+    left: auto;
+    right: -20%;
+}
+.learn-more-container{
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.learn-more{
+    text-align: center;
+    vertical-align: middle;
+    min-height: 1px;
+    padding: 0 15px;
+    position: relative;
+}
+.learn-more a{
+    margin: auto;
+    background-color: #BDD436;
+    border-radius: 25px;
+    /*line-height: 22.8751px;*/
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 36px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    border: #BDD436 2px solid;
+}
